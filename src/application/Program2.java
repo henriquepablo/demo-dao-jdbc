@@ -32,6 +32,10 @@ public class Program2 {
 		department.setName("Moveis");
 		departmentDao.update(department);
 		System.out.println("Update completed");
+		
+		System.out.println("=== TEST 5: departmetn deleteById===");
+		departmentDao.deleteById(8);
+		System.out.println("deletado");
 	}
 
 }
